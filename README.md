@@ -18,6 +18,7 @@ The purpose of this repository is to provide demonstrations and examples for dif
 
 - **tauri-next-demo**: Walk through creating the first Tauri app using the React framework Next.js.
 - **ionic-react-demo**: Create an Ionic React app that uses the “Tabs” starter template and adds Capacitor for native functionality
+- **electron-demo**: creating a barebones Hello World app in Electron
 
 ## Usage
 

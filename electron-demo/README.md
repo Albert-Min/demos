@@ -1,0 +1,3 @@
+- We bootstrapped a Node.js application and added Electron as a dependency.
+- We created a main.js script that runs our main process, which controls our app and runs in a Node.js environment. In this script, we used Electron's app and BrowserWindow modules to create a browser window that displays web content in a separate process (the renderer).
+- In order to access certain Node.js functionality in the renderer, we attached a preload script to our BrowserWindow constructor.
