@@ -5,7 +5,7 @@ module.exports = {
     webpack(config, options) {
         config.plugins.push(
             new NextFederationPlugin({
-                name: 'micro-app-1',
+                name: 'micro-app-2',
                 remotes: {},
                 filename: 'static/chunks/remoteEntry.js',
                 exposes: {

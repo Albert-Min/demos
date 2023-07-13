@@ -4,7 +4,7 @@ const MicroFrontend1 = dynamic(() => import("micro-app-1/exposed") as any, {
   ssr: false,
 });
 
-const MicroFrontend2 = dynamic(() => import("micro-app-2/HelloWorld") as any, {
+const MicroFrontend2 = dynamic(() => import("micro-app-2/exposed") as any, {
   ssr: false,
 });
 
